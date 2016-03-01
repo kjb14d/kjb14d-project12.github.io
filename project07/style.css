@@ -1,0 +1,153 @@
+/*CSS by Kevin Berry 2/11/15 */
+
+body {
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+	color: #000;
+	background-color: #799AE0;
+}
+
+/* basic text styles ----------------------------  */
+h1 {
+	font-size: 25px;
+	padding: 15px 35px;
+	margin: 40px 0px;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	margin: 30px 15px;
+	background-color: #BA9B65;
+}
+h3 {
+	padding: 0;
+	margin: 0;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #133463;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #365FB7;
+	text-decoration: none;
+}
+a:hover {
+	color: #999933;
+}
+
+/* list styles ----------------------------- */
+
+
+/* table styles -------------------------------------- */
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 40px auto 40px auto;
+	border: solid #BA9B65 1px;
+}
+td {
+	padding: 6px;
+	border: solid #BA9B65 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #133463;
+	text-align: center;
+	padding: 6px;
+	border: solid #133463 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #999933 2px;
+}
+img {
+	border: solid #000 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+iframe {
+	border: solid #000 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+#container {
+	border: solid #000 4px;
+	background-color: #F4EFDC;
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* Header Styles */
+#header{
+	width: 100%;
+	padding: 0;
+}
+#header h3{
+	margin: 0;
+	padding: 0;
+}
+
+/* Main content styles */
+#content{
+	width: 100%;
+	padding: 0px;
+	float: left; 
+}
+#content p {
+	margin: 40px;
+        color: #000;
+}
+#content ul {
+	margin: 40px;
+	color: #000;
+}
+#content li {
+	margin: 0px 40px;
+	color: #000;
+}
+#content ol {
+	margin: 40px;
+	color: #000;
+}
+
+/* Sidebar styles */
+#sidebar{
+	width: 150px;
+	background-color: #eee;
+	padding: 10px;	
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	border: solid #999933 1px;
+	border-radius: 12px;
+	float: right;
+	overflow: hidden;
+}
+#sidebar h1 {
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+
+/* Footer styles */
+#footer{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	clear: both;
+	border-top: solid #999933 1px;
+}
+#footer p {
+	font-size: .7em;
+	margin: 0 40px;
+}
